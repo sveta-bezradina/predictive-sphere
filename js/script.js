@@ -11,7 +11,7 @@ div3.classList.add('circle');
 let button = document.createElement('button');
 button.innerHTML="Click on me";
 let reset = document.createElement('button');
-reset.style.cssText='background:#936c40';
+reset.style.cssText='background:#304c26';
 reset.innerHTML="Reset";
 
 
