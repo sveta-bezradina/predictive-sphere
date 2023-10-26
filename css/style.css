@@ -6,7 +6,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image:url(C:/Users/Cookie/Documents/IPZ/Frontend/ЛР-7/img/fon.png);
+    background-image:url(predictive-sphere/img/fon.png);
 	background-attachment: fixed;
     background-position: 50% 10%;
     font-family: 'Oswald', sans-serif;
