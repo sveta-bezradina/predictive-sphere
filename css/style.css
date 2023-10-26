@@ -6,9 +6,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image:url(fon.png);
-	background-attachment: fixed;
-    background-position: 50% 10%;
+    background-color: #13110d;
     font-family: 'Oswald', sans-serif;
 }
 .first{
@@ -24,6 +22,7 @@ input{
     height:50px;
     background-color: rgba(134, 135, 135, 0.105);
     border-radius: 14px;
+    color: white;
     border: 0px;
     padding: 5px 0 0 15px;
     box-shadow: inset 2px 2px 5px rgb(56, 56, 56);
@@ -37,26 +36,30 @@ input{
     justify-content: center;
 	align-items:center;
 	flex-direction:column;
-    margin-top:178px;
+    margin-top:5%;
 }
 .circle{
-    width:300px;
-    height:300px;
+    width:400px;
+    height:400px;
     display: flex;
-    border:5px rgb(34, 75, 121) solid;
     justify-content: space-around;
     border-radius:50%;
 	align-items:center;
-    box-shadow: inset 3px 5px 25px rgb(11, 31, 64);
+    background-image: url(preview_image.avif);
+    box-shadow: inset 3px 5px 25px rgb(0, 0, 0),
+                    1px 2px 25px rgb(255, 255, 255);
 	flex-direction:column;
-    font-size: 25pt;
+    color: white;
+    font-size: 35pt;
 }
 button{
 	width:50%;
 	height:50px;
-	background-color: #3c6c97 ;
+	background-color: #1f215e;
 	border-radius: 15px;
     margin: 25px 0  0 0px;
     font-family: 'Oswald', sans-serif;
 	font-size: 15pt;
+    box-shadow:1px 1px 5px rgb(255, 255, 255);
+    color: rgb(185, 184, 184);
 }
