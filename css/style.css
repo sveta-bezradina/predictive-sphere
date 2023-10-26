@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+	width:auto;
+	height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(C:/Users/Cookie/Documents/IPZ/Frontend/ЛР-7/img/fon.png);
+	background-attachment: fixed;
+    background-position: 50% 10%;
+    font-family: 'Oswald', sans-serif;
+	font-size: 15pt;
+}
+.first{
+    width:auto;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+	align-items:center;
+	flex-direction:column;
+}
+input{
+    width:350px;
+    height:50px;
+    background-color: rgba(134, 135, 135, 0.105);
+    border-radius: 14px;
+    border: 0px;
+    padding: 5px 0 0 15px;
+    box-shadow: inset 2px 2px 5px rgb(56, 56, 56);
+    font-family: 'Oswald', sans-serif;
+    font-size: 15pt;
+}
+.second{
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content: center;
+	align-items:center;
+	flex-direction:column;
+    margin-top:178px;
+}
+.circle{
+    width:300px;
+    height:300px;
+    display: flex;
+    border:5px rgb(34, 75, 121) solid;
+    justify-content: space-around;
+    border-radius:50%;
+	align-items:center;
+    box-shadow: inset 3px 5px 25px rgb(11, 31, 64);
+	flex-direction:column;
+}
+button{
+	width:50%;
+	height:50px;
+	background-color: #3c6c97 ;
+	border-radius: 15px;
+    margin: 25px 0  0 0px;
+    font-family: 'Oswald', sans-serif;
+	font-size: 15pt;
+}
